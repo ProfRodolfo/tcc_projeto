@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+ 
+</head>
+<body>
+    <div class="container">
+        <h1>Informações de Saúde dos Funcionários</h1>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="id" placeholder="ID do Funcionário" required>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <textarea id="informacoesSaude" placeholder="Informações de Saúde" required></textarea>
+            <input type="text" id="contatoEmergencia" placeholder="Contato de Emergência" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="mensagem"></div>
+    </div>
+</body>
+</html>
